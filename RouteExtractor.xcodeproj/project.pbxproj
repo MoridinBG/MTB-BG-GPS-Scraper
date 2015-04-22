@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0010C5D81AE84F870093617A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5D71AE84F870093617A /* AppDelegate.swift */; };
+		0010C5DA1AE84F870093617A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5D91AE84F870093617A /* ViewController.swift */; };
+		0010C5DC1AE84F870093617A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0010C5DB1AE84F870093617A /* Images.xcassets */; };
+		0010C5DF1AE84F870093617A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0010C5DD1AE84F870093617A /* Main.storyboard */; };
+		0010C5EB1AE84F870093617A /* RouteExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5EA1AE84F870093617A /* RouteExtractorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0010C5E51AE84F870093617A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0010C5CA1AE84F870093617A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0010C5D11AE84F870093617A;
+			remoteInfo = RouteExtractor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010C5D21AE84F870093617A /* RouteExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0010C5D61AE84F870093617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0010C5D71AE84F870093617A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0010C5D91AE84F870093617A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0010C5DB1AE84F870093617A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0010C5DE1AE84F870093617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0010C5E41AE84F870093617A /* RouteExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0010C5E91AE84F870093617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0010C5EA1AE84F870093617A /* RouteExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteExtractorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0010C5CF1AE84F870093617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0010C5E11AE84F870093617A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0010C5C91AE84F870093617A = {
+			isa = PBXGroup;
+			children = (
+				0010C5D41AE84F870093617A /* RouteExtractor */,
+				0010C5E71AE84F870093617A /* RouteExtractorTests */,
+				0010C5D31AE84F870093617A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0010C5D31AE84F870093617A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5D21AE84F870093617A /* RouteExtractor.app */,
+				0010C5E41AE84F870093617A /* RouteExtractorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0010C5D41AE84F870093617A /* RouteExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5D71AE84F870093617A /* AppDelegate.swift */,
+				0010C5D91AE84F870093617A /* ViewController.swift */,
+				0010C5DB1AE84F870093617A /* Images.xcassets */,
+				0010C5DD1AE84F870093617A /* Main.storyboard */,
+				0010C5D51AE84F870093617A /* Supporting Files */,
+			);
+			path = RouteExtractor;
+			sourceTree = "<group>";
+		};
+		0010C5D51AE84F870093617A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5D61AE84F870093617A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0010C5E71AE84F870093617A /* RouteExtractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5EA1AE84F870093617A /* RouteExtractorTests.swift */,
+				0010C5E81AE84F870093617A /* Supporting Files */,
+			);
+			path = RouteExtractorTests;
+			sourceTree = "<group>";
+		};
+		0010C5E81AE84F870093617A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5E91AE84F870093617A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0010C5D11AE84F870093617A /* RouteExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0010C5EE1AE84F870093617A /* Build configuration list for PBXNativeTarget "RouteExtractor" */;
+			buildPhases = (
+				0010C5CE1AE84F870093617A /* Sources */,
+				0010C5CF1AE84F870093617A /* Frameworks */,
+				0010C5D01AE84F870093617A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteExtractor;
+			productName = RouteExtractor;
+			productReference = 0010C5D21AE84F870093617A /* RouteExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0010C5E31AE84F870093617A /* RouteExtractorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0010C5F11AE84F870093617A /* Build configuration list for PBXNativeTarget "RouteExtractorTests" */;
+			buildPhases = (
+				0010C5E01AE84F870093617A /* Sources */,
+				0010C5E11AE84F870093617A /* Frameworks */,
+				0010C5E21AE84F870093617A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0010C5E61AE84F870093617A /* PBXTargetDependency */,
+			);
+			name = RouteExtractorTests;
+			productName = RouteExtractorTests;
+			productReference = 0010C5E41AE84F870093617A /* RouteExtractorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0010C5CA1AE84F870093617A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TechLight;
+				TargetAttributes = {
+					0010C5D11AE84F870093617A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					0010C5E31AE84F870093617A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0010C5D11AE84F870093617A;
+					};
+				};
+			};
+			buildConfigurationList = 0010C5CD1AE84F870093617A /* Build configuration list for PBXProject "RouteExtractor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0010C5C91AE84F870093617A;
+			productRefGroup = 0010C5D31AE84F870093617A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0010C5D11AE84F870093617A /* RouteExtractor */,
+				0010C5E31AE84F870093617A /* RouteExtractorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0010C5D01AE84F870093617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0010C5DC1AE84F870093617A /* Images.xcassets in Resources */,
+				0010C5DF1AE84F870093617A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0010C5E21AE84F870093617A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0010C5CE1AE84F870093617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0010C5DA1AE84F870093617A /* ViewController.swift in Sources */,
+				0010C5D81AE84F870093617A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0010C5E01AE84F870093617A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0010C5EB1AE84F870093617A /* RouteExtractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0010C5E61AE84F870093617A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0010C5D11AE84F870093617A /* RouteExtractor */;
+			targetProxy = 0010C5E51AE84F870093617A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0010C5DD1AE84F870093617A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0010C5DE1AE84F870093617A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0010C5EC1AE84F870093617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0010C5ED1AE84F870093617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0010C5EF1AE84F870093617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RouteExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0010C5F01AE84F870093617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RouteExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0010C5F21AE84F870093617A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RouteExtractorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteExtractor.app/Contents/MacOS/RouteExtractor";
+			};
+			name = Debug;
+		};
+		0010C5F31AE84F870093617A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RouteExtractorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteExtractor.app/Contents/MacOS/RouteExtractor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0010C5CD1AE84F870093617A /* Build configuration list for PBXProject "RouteExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0010C5EC1AE84F870093617A /* Debug */,
+				0010C5ED1AE84F870093617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0010C5EE1AE84F870093617A /* Build configuration list for PBXNativeTarget "RouteExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0010C5EF1AE84F870093617A /* Debug */,
+				0010C5F01AE84F870093617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0010C5F11AE84F870093617A /* Build configuration list for PBXNativeTarget "RouteExtractorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0010C5F21AE84F870093617A /* Debug */,
+				0010C5F31AE84F870093617A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0010C5CA1AE84F870093617A /* Project object */;
+}
