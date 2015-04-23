@@ -8,10 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0010C5D81AE84F870093617A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5D71AE84F870093617A /* AppDelegate.swift */; };
-		0010C5DA1AE84F870093617A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5D91AE84F870093617A /* ViewController.swift */; };
 		0010C5DC1AE84F870093617A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0010C5DB1AE84F870093617A /* Images.xcassets */; };
 		0010C5DF1AE84F870093617A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0010C5DD1AE84F870093617A /* Main.storyboard */; };
 		0010C5EB1AE84F870093617A /* RouteExtractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5EA1AE84F870093617A /* RouteExtractorTests.swift */; };
+		0010C5F51AE850410093617A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5F41AE850410093617A /* MainViewController.swift */; };
+		0010C5F91AE85EAE0093617A /* HTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5F61AE85EAE0093617A /* HTMLNode.swift */; };
+		0010C5FA1AE85EAE0093617A /* HTMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C5F71AE85EAE0093617A /* HTMLParser.swift */; };
+		0010C5FE1AE85F190093617A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0010C5FC1AE85F190093617A /* libxml2.2.dylib */; };
+		0010C5FF1AE85F190093617A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0010C5FD1AE85F190093617A /* libxml2.dylib */; };
+		0010C6011AE8FB0D0093617A /* RouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C6001AE8FB0D0093617A /* RouteModel.swift */; };
+		0010C6031AE8FDE00093617A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C6021AE8FDE00093617A /* Constants.swift */; };
+		0010C6051AE913C80093617A /* RouteEditorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010C6041AE913C80093617A /* RouteEditorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +35,20 @@
 		0010C5D21AE84F870093617A /* RouteExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0010C5D61AE84F870093617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0010C5D71AE84F870093617A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0010C5D91AE84F870093617A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0010C5DB1AE84F870093617A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0010C5DE1AE84F870093617A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0010C5E41AE84F870093617A /* RouteExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0010C5E91AE84F870093617A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0010C5EA1AE84F870093617A /* RouteExtractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteExtractorTests.swift; sourceTree = "<group>"; };
+		0010C5F41AE850410093617A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0010C5F61AE85EAE0093617A /* HTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLNode.swift; sourceTree = "<group>"; };
+		0010C5F71AE85EAE0093617A /* HTMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
+		0010C5F81AE85EAE0093617A /* Swift-HTML-Parser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-HTML-Parser-Bridging-Header.h"; sourceTree = "<group>"; };
+		0010C5FC1AE85F190093617A /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		0010C5FD1AE85F190093617A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		0010C6001AE8FB0D0093617A /* RouteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteModel.swift; sourceTree = "<group>"; };
+		0010C6021AE8FDE00093617A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0010C6041AE913C80093617A /* RouteEditorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteEditorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0010C5FE1AE85F190093617A /* libxml2.2.dylib in Frameworks */,
+				0010C5FF1AE85F190093617A /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,11 +92,14 @@
 		0010C5D41AE84F870093617A /* RouteExtractor */ = {
 			isa = PBXGroup;
 			children = (
+				0010C5FB1AE85EB60093617A /* HTML Parse */,
 				0010C5D71AE84F870093617A /* AppDelegate.swift */,
-				0010C5D91AE84F870093617A /* ViewController.swift */,
+				0010C5F41AE850410093617A /* MainViewController.swift */,
 				0010C5DB1AE84F870093617A /* Images.xcassets */,
 				0010C5DD1AE84F870093617A /* Main.storyboard */,
 				0010C5D51AE84F870093617A /* Supporting Files */,
+				0010C6001AE8FB0D0093617A /* RouteModel.swift */,
+				0010C6041AE913C80093617A /* RouteEditorCell.swift */,
 			);
 			path = RouteExtractor;
 			sourceTree = "<group>";
@@ -87,7 +107,10 @@
 		0010C5D51AE84F870093617A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0010C5FC1AE85F190093617A /* libxml2.2.dylib */,
+				0010C5FD1AE85F190093617A /* libxml2.dylib */,
 				0010C5D61AE84F870093617A /* Info.plist */,
+				0010C6021AE8FDE00093617A /* Constants.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -107,6 +130,16 @@
 				0010C5E91AE84F870093617A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0010C5FB1AE85EB60093617A /* HTML Parse */ = {
+			isa = PBXGroup;
+			children = (
+				0010C5F61AE85EAE0093617A /* HTMLNode.swift */,
+				0010C5F71AE85EAE0093617A /* HTMLParser.swift */,
+				0010C5F81AE85EAE0093617A /* Swift-HTML-Parser-Bridging-Header.h */,
+			);
+			name = "HTML Parse";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0010C5DA1AE84F870093617A /* ViewController.swift in Sources */,
+				0010C5F91AE85EAE0093617A /* HTMLNode.swift in Sources */,
+				0010C5F51AE850410093617A /* MainViewController.swift in Sources */,
 				0010C5D81AE84F870093617A /* AppDelegate.swift in Sources */,
+				0010C6051AE913C80093617A /* RouteEditorCell.swift in Sources */,
+				0010C6011AE8FB0D0093617A /* RouteModel.swift in Sources */,
+				0010C5FA1AE85EAE0093617A /* HTMLParser.swift in Sources */,
+				0010C6031AE8FDE00093617A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +366,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = RouteExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouteExtractor/Swift-HTML-Parser-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -339,9 +383,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = RouteExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RouteExtractor/Swift-HTML-Parser-Bridging-Header.h";
 			};
 			name = Release;
 		};
