@@ -16,11 +16,13 @@ class RouteModel
 	var distance: Double = 0
 	var ascent: Double = 0
 	var difficulty: [String] = [String]()
-	var strenuousness: Double = 0
+	var strenuousness: Int32 = 0
 	var duration: String = ""
 	var water: String = ""
 	var food: String = ""
-	var terrain: [[String:Double]] = [[String:Double]]()
+	var tarmac: Double = 0
+	var roads: Double = 0
+	var trails: Double = 0
 	var traces: String = ""
 	var JSON: String = ""
 }
